@@ -8,7 +8,7 @@ build/
 dist/
 Backend_Code/
 functions/
-app/
+api/
 
 # System files
 .DS_Store
