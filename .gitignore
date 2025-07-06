@@ -7,6 +7,8 @@ node_modules/
 build/
 dist/
 Backend_Code/
+functions/
+app/
 
 # System files
 .DS_Store
@@ -56,6 +58,5 @@ coverage/
 tailwind-output.css
 api/lexical-emblem-*.json
 .env
-*.json
 *.key
 
