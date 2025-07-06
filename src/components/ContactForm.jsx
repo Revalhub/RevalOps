@@ -17,9 +17,11 @@ const ContactForm = () => {
     }
 
     try {
-      const response = await fetch('http://localhost:5000/api/storeRequest', {
+      const response = await fetch('https://revalops.onrender.com/api/storeRequest', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+        },
         body: JSON.stringify({ email, message }),
       });
 
@@ -55,6 +57,7 @@ const ContactForm = () => {
               placeholder="Your Email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
+              required
             />
 
             <textarea
@@ -62,6 +65,7 @@ const ContactForm = () => {
               rows="5"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
+              required
             ></textarea>
 
             <button type="submit">Send Message</button>

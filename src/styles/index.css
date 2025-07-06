@@ -29,11 +29,12 @@ h1, h2, h3, h4, h5, h6 {
 /* ==== Navbar ==== */
 .navbar {
   transition: background-color 0.3s ease;
-  padding: 0.75rem 1rem;
+  padding: 0.5rem 1rem; /* Reduce padding */
+  height: 60px; /* Set a fixed height */
 }
 
 .navbar-brand {
-  font-size: 1.5rem;
+  font-size: 1.2rem; /* Adjust font size for the brand */
   font-weight: bold;
   color: white !important;
 }
@@ -43,10 +44,16 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   margin-left: 20px;
   transition: color 0.3s ease;
+  font-size: 0.9rem; /* Adjust font size for links */
+  padding: 0.5rem; /* Reduce padding for links */
 }
 
 .navbar-nav .nav-link:hover {
   color: #ffc107 !important; /* Bootstrap warning color */
+}
+
+.navbar-toggler {
+  padding: 0.25rem 0.5rem; /* Reduce padding for the toggle button */
 }
 
 /* ==== Hero Section ==== */

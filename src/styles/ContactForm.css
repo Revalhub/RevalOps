@@ -88,7 +88,9 @@
   }
   
   .contact-feedback.success {
-    color: #34d399;
+    color: #28a745; /* Green color for success */
+    font-weight: bold;
+    margin-top: 10px;
   }
   
   .contact-image-container {

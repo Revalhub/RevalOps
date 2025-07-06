@@ -18,11 +18,7 @@ const Footer = () => {
           </a>
         </div>
         <p className="footer-text">© {new Date().getFullYear()} RevalOps. All rights reserved.</p>
-        <img
-          src="images/footer-bg.jpg"
-          alt="Footer Visual"
-          className="footer-image"
-        />
+        <p>Made with <span style={{ color: '#e25555' }}>&#x2764;</span> in India</p>
       </div>
     </footer>
   );

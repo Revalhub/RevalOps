@@ -3,28 +3,28 @@ import React from 'react';
 const Features = () => {
   const features = [
     {
-      icon: 'bi bi-diagram-3',
-      title: 'CI/CD Pipelines',
+      icon: 'bi bi-gear-wide-connected',
+      title: 'DevOps, Automation & Observability',
       description:
-        'Streamline your software delivery with automated build, test, and deployment workflows for faster and more reliable releases.',
-    },
-    {
-      icon: 'bi bi-code-slash',
-      title: 'Infrastructure as Code',
-      description:
-        'Manage infrastructure using code to ensure consistency, version control, and rapid provisioning across environments.',
-    },
-    {
-      icon: 'bi bi-bell-fill',
-      title: 'Monitoring & Alerts',
-      description:
-        'Stay ahead of issues with real-time monitoring, smart alerting, and proactive incident management.',
+        'Implement DevOps practices to automate infrastructure, CI/CD pipelines, and monitoring. Gain visibility into systems with integrated logging, alerting, and performance tracking for faster, more reliable operations.',
     },
     {
       icon: 'bi bi-cloud-arrow-up-fill',
-      title: 'Cloud-Native Development',
+      title: 'Cloud-Native Development and Migration',
       description:
-        'Leverage containers, microservices, and Kubernetes to build scalable, resilient, and cloud-optimized applications.',
+        'Accelerate your digital transformation by migrating applications to the cloud, adopting containerization, and implementing microservices using Kubernetes and serverless technologies.',
+    },
+    {
+      icon: 'bi bi-hdd-network',
+      title: 'Infrastructure, Database & ETL Services',
+      description:
+        'Design scalable infrastructure, manage relational and NoSQL databases, and build ETL pipelines for seamless data movement, transformation, and integration.',
+    },
+    {
+      icon: 'bi bi-shield-lock-fill',
+      title: 'Security & Compliance Automation',
+      description:
+        'Automate security best practices, implement policy-as-code, and ensure compliance with industry standards like SOC 2, HIPAA, and GDPR throughout your DevOps lifecycle.',
     },
   ];
 
